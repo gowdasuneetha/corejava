@@ -1,0 +1,22 @@
+class Ab{
+	String name;
+	public void animal() {
+		System.out.println("elephant");
+	}
+}
+class Bc extends Ab{
+	int age;
+	public void anim() {
+		System.out.println(100);
+	}
+}
+public class Multilevelexample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Bc obj = new Bc();
+obj.animal();
+obj.anim();
+	}
+
+}

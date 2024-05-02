@@ -1,0 +1,24 @@
+class Mono{
+	int a = 305, b = 555;
+	int c = a+b;
+	public void add() {
+		System.out.println(c);
+	}
+}
+class Mono1 extends Mono{
+	public void sub() {
+		
+		int d = a-b;
+		System.out.println(d);
+	}
+}
+public class Singlelevelexample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Mono1 s = new Mono1();
+s.add();
+s.sub();
+	}
+
+}

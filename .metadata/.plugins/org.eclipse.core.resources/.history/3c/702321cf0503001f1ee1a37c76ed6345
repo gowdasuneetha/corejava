@@ -1,0 +1,26 @@
+class Addition{
+	int a = 96;
+	int b = 108;
+	public void add() {
+		int c = a+b;
+		System.out.println(c);
+		}
+}
+class Substraction extends  Addition{
+	public void sub() {
+		int d = a-b;
+		System.out.println(d);
+
+	}
+
+}
+public class Singleinheritance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Substraction obj = new Substraction();
+obj.add();
+obj.sub();
+	}
+
+}

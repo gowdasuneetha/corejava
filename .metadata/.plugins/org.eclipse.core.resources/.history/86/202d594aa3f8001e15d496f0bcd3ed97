@@ -1,0 +1,29 @@
+class Pinnk{
+	public void oy() {
+		System.out.println("employee name");
+	}
+	public void oy(int a) {
+		System.out.println("employee id");
+	}
+	public void oy(byte a,char b) {
+		System.out.println("employee city");
+	}
+	public void oy(double c) {
+		System.out.println("employee mobile no");
+	}
+	public void oy(short d,long l) {
+		System.out.println("employee ctc");
+	}
+}
+public class Consoverloading {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Pinnk obj = new Pinnk();
+
+
+
+
+	}
+
+}
